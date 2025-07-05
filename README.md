@@ -34,5 +34,5 @@ CSS
 localStorage
 
 🔗 Live Demo
-[Link to deployed application]
+[https://taskmanagerxyz.netlify.app/]
 
