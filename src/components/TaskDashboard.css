@@ -1,0 +1,42 @@
+.dashboard {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-header {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-header h2 {
+    font-size: 24px;
+    color: #1e293b;
+  }
+  
+  .dashboard-header p {
+    color: #64748b;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem 1rem;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    margin-top: 2rem;
+  }
+  
+  .no-tasks {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #94a3b8;
+  }
+  

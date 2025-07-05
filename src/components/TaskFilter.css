@@ -1,0 +1,33 @@
+.task-filter {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .task-filter button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #cbd5e1;
+    background: #f1f5f9;
+    color: #1e293b;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .task-filter button.active {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .task-filter button span {
+    margin-left: 6px;
+    background: white;
+    color: #3b82f6;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
