@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { getTasksFromStorage, saveTasksToStorage } from '../utils/localStorage';
 import './TaskDashboard.css';
 import TaskFilter from './TaskFilter';
@@ -9,7 +8,6 @@ import TaskItem from './TaskItem';
 function TaskDashboard({ setUsername }) {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState('all');
-  const navigate = useNavigate();
   const username = localStorage.getItem('username');
 
   useEffect(() => {
